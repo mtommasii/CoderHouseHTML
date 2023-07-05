@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-color: #fff;
+    position: sticky; 
+    top: 0px;
+    overflow: hidden;
+}
+
+.logoContainer{
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.relleno{
+    width: 40%;
+    height: 70px;
+}
+
+.logo{
+    padding: 2px;
+    width: auto;
+    height: 70px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 25px;
+    margin-right: 40px;
+    border-left: solid #f9f9f978 1px;
+}
+
+.subheader{
+    height: fit-content;
+    width: 100%;
+    background-color: red;
+}
+
+a{ 
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.imagenPortada{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.destacados{
+    text-align: center;
+    font-size: 28px;
+    margin: 30px;
+}
+
+.modeloDestacado{
+    height: 155px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.margenesDestacados{
+    display: flex;
+    justify-content: space-around;
+}
+
+.separador{
+    padding-bottom: 55px;
+}
+
+
+.figureDestacada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.piePag{
+    height: 150px;
+    width: 100%;
+    background-color: #4A4F59;
+}
+
+.tituloFooter{
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.figureIconos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.iconos{
+    padding: 10px;
+}
